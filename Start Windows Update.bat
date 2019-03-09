@@ -6,7 +6,6 @@ net start "bits"
 C:\WINDOWS\system32\svchost.exe -k netsvcs
 
 start ms-settings:windowsupdate
-WindowsUpdate.vbs
 pause
 
 sc config "wuauserv" start= disabled
